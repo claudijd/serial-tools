@@ -5,10 +5,10 @@ require "serialport"
 port_str = "/dev/tty.usbserial-A100FY8Y"
 baud_rates = [
   9600,
-	38400,
-	19200,
-	57600,
-	115200
+  38400,
+  19200,
+  57600,
+  115200
 ]
 data_bits = 8
 stop_bits = 1
