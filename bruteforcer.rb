@@ -17,7 +17,7 @@ timeout = 5
 
 loop do
   baud_rates.each do |baud_rate|
-    puts "\n*********** START BAUD #{baud_rate} ***********\n"
+    puts "\n*********** START #{baud_rate}-#{data_bits}-#{parity}-#{stop_bits} ***********\n"
     sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
     $stdout.sync= true
     sp.sync = true
@@ -30,6 +30,6 @@ loop do
     writer.terminate
 
     sp.close
-    puts "\n*********** END BAUD #{baud_rate} ***********\n"
+    puts "\n*********** END #{baud_rate}-#{data_bits}-#{parity}-#{stop_bits} ***********\n"
   end
 end
