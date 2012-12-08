@@ -1,14 +1,15 @@
-# A tool for detecting the names of locally connected FTDI/UART Devices
+# A tool for auto-detecting the names of locally connected USB FTDI/UART/Serial Devices
 #
 # Tested on Mac OSX and Linux (if you have Windows suggestions, please send a pull)
 
 puts "Looking for locally connected serial devices"
 
 device_styles = [
-  "/dev/tty.usbserial*",
-  "/dev/cu.usbserial*",
-  "/dev/ttyUSB*",
-  "/dev/tty.KeySerial*"
+  "/dev/tty.usbserial*",  #Generic FTDI/UART Cable
+  "/dev/cu.usbserial*",   #Generic FTDI/UART Cable
+  "/dev/ttyUSB*",         #Generic Linux
+  "/dev/tty.KeySerial*"   #KeySpan Devices
+  # ADD MORE AS IDENTIFIED
 ]
 
 results = []
