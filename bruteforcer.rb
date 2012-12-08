@@ -4,9 +4,11 @@ require "serialport"
 
 port_str = ARGV.shift #"/dev/tty.usbserial-A5005DKM"
 baud_rates = [
+  2400,
+  4800,
   9600,
-  38400,
   19200,
+  38400,
   57600,
   115200
 ]

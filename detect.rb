@@ -5,8 +5,8 @@
 puts "Looking for locally connected serial devices"
 
 device_styles = [
-  "/dev/tty.usbserial*",  #Generic FTDI/UART Cable
-  "/dev/cu.usbserial*",   #Generic FTDI/UART Cable
+  "/dev/tty.usbserial*",  #Generic FTDI/UART Cable (also works with Bus-Pirate)
+  "/dev/cu.usbserial*",   #Generic FTDI/UART Cable (also works with Bus-Pirate)
   "/dev/ttyUSB*",         #Generic Linux
   "/dev/tty.KeySerial*"   #KeySpan Devices
   # ADD MORE AS IDENTIFIED
