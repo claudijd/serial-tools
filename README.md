@@ -5,7 +5,7 @@ Some ruby scripts for serial communication hacking and other fun stuff.
 You can use it to talk to a number of device types, including:
 
 - RaspberryPi
-- Andriods/IPhones
+- Andriods/iPhones/iPads
 - Arduino
 - SOHO Device Boards
 - Old School Modems
@@ -75,4 +75,4 @@ raspberrypi login:
 
 ## Contributing
 
-If you're interesting contributing to this project, please see [CONTRIBUTING.md](https://github.com/claudijd/serial-tools/blob/master/CONTRIBUTING.md)
+If you're interested in contributing to this project, please see [CONTRIBUTING.md](https://github.com/claudijd/serial-tools/blob/master/CONTRIBUTING.md)
