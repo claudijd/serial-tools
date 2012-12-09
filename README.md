@@ -75,6 +75,8 @@ raspberrypi login:
 
 ```
 
+6.) Have fun and play nice :)
+
 ## Contributing
 
 If you're interested in contributing to this project, please see [CONTRIBUTING.md](https://github.com/claudijd/serial-tools/blob/master/CONTRIBUTING.md)
