@@ -8,6 +8,7 @@ You can use it to talk to a number of device types, including:
 - Andriods/iPhones/iPads
 - Arduino
 - SOHO Device Boards
+- Bus Pirates
 - Old School Modems
 
 Really any RS232(5v) or UART(3.3v) capatible device(s) are fair game.
