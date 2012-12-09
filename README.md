@@ -16,6 +16,8 @@ If you can think of any other popular ones I missed, send a pull or let me know.
 
 ## Setup
 
+Install the serialport gem
+
 ```bash
 gem install serialport
 ```
