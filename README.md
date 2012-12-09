@@ -9,7 +9,10 @@ You can use it to talk to a number of device types, including:
 - Arduino
 - SOHO Device Boards
 - Old School Modems
-- <insert any RS232(5v) or UART(3.3v) capatible device(s) here, send a pull to add more> 
+
+Really any RS232(5v) or UART(3.3v) capatible device(s) are fair game.
+
+If you can think of any other popular ones I missed, send a pull or let me know.
 
 ## Setup
 
