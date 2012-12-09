@@ -56,7 +56,7 @@ ruby detect_serial_baudrate.rb /dev/tty.usbserial-A100FY8Y
 
 <snip>
 
-*********** 115200 2400-8-0-1 ***********
+*********** START 115200-8-0-1 ***********
 Debian GNU/Linux wheezy/sid raspberrypi ttyAMA0
 
 raspberrypi login: 
