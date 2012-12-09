@@ -35,10 +35,10 @@ cd serial-tools
 
 2.) Connect your serial device to your target project
 
-3.) Detect the name of that device with detect.rb
+3.) Detect the name of that device with detect_usb_serial_device.rb
 
 ```bash
-ruby detect.rb
+ruby detect_usb_serial_device.rb
 Looking for locally connected serial devices
 Found 2 connected serial devices
   * /dev/tty.usbserial-A100FY8Y
