@@ -45,10 +45,10 @@ Found 2 connected serial devices
   * /dev/cu.usbserial-A100FY8Y
 ```
 
-4.) Bruteforce the target baud rate settings with bruteforce.rb
+4.) Determine the target baud rate settings with detect_serial_baudrate.rb
 
 ```bash
-ruby bruteforcer.rb /dev/tty.usbserial-A100FY8Y
+ruby detect_serial_baudrate.rb /dev/tty.usbserial-A100FY8Y
 
 *********** START 57600-8-0-1 ***********
 <repeatedly hit enter and see if you get prompt back>

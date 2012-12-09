@@ -1,4 +1,4 @@
-# Bruteforcer - A simple script for rolling through serial baud rates
+# A simple script for rolling through serial baud rates and providing feedback to the user
 
 require "serialport"
 
